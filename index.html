@@ -2,31 +2,78 @@
 <html>
     <head>
         <title>Gulf Coast Testing</title>
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="images/home-logo.jpg" alt="">
-        </header>
-        <main>
-            <div>
-                <button/>
-                <button/>
-                <button/>
-                <button/>
+        <header class="blue-bottom-border">      
+            <div class="top-bar flex">                
+                <a href="index.html">Gulf Coast Testing, LLC</a>
+                <button>                    
+                    <div class="two-column-auto">
+                        <p>
+                            User
+                        </p>
+                        <img src="images/profile.png" alt="Generic person icon">
+                    </div>
+                </button>                             
             </div>
             <div>
-                <ul>
-                    <li>Manufacturers</li>
-                    <li>Daily Log Entry</li>
-                    <li>Daily Log Entries</li>
-                    <li>Water Quality Log</li>
-                    <li>Import Lab Data</li>
-                    <li>Print Reports</li>
-                </ul>
+                <div class="flex">         
+                    <a href="index.html"><img src="images/home-logo.svg" alt=""></a>
+                    <nav class="primary-navigation center" aria-label="Primary Navigation">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="my-profile.html">My Profile</a></li>
+                            <li><a>Log Out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>  
+            <div>
+                <section>
+                    <img class="blue-bottom-border" src="images/top-splash.jpg" alt="close up water droplet hitting water and splashing upwards.">
+                </section>         
+            </div> 
+            <section class="blue-bottom-border">
+                <div class="wrapper">
+
+                    <div>
+                        <h1>Welcome, User!</h1>
+                        <p class="blue-text">Here's some text if you want it</p>
+                    </div>            
+                    <div>
+                    <!-- <a class="button-link" href="add-daily-log.html">Daily Log<a/>                    
+                        <button>Enter Lab Data</button>
+                        <button>Import Data</button>
+                        <button>Print Reports</button> -->
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="add-delete-manufacturer.html">Manufacturers</a></li>
+                            <li><a href="add-daily-log.html">Log Entry</a> </li>
+                            <li><a href="daily-log-entries.html">Daily Log Entries</a></li>
+                            <li><a href="water-quality-log.html">Water Quality Log</a></li>
+                            <li><a href="import-lab-data.html">Import Lab Data</a></li>
+                            <li><a href="print-reports.html">Print Reports</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>  
+            <div>
+                <section>
+                    <div class="two-column-layout">                        
+                        <img src="images/test-4.jpg" alt="Water dripping out of a water faucet." >
+                        <h2 class="center">
+                            Ensuring Safe Water Quality Through Rigorous Testing
+                        </h2>
+                    </div>
+                </section>
             </div>
         </main>
         <footer>
-            <p>&copy; <script>document.write(new Date().getFullYear());</script> All rights reserverd :: Gulf Coast Testing, LLC</p>
+            <p>&copy; <script>document.write(new Date().getFullYear());</script> All rights reserved :: Gulf Coast Testing, LLC</p>
         </footer>
     </body>   
 </html>
